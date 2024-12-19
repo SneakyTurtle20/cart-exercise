@@ -34,7 +34,7 @@ class ShoppingCart {
                     total += PRODUCTS[item].price;
                 }
             } else if (item === 'ult_large') {
-                total += ult5GBDiscount > 0 ? 39.90 : PRODUCTS[item].price;
+                total += ult5GBDiscount ? 39.90 : PRODUCTS[item].price;
             } else {
                 total += PRODUCTS[item].price;
             }

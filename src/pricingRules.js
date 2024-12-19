@@ -2,7 +2,7 @@ class PricingRules {
     applyBulkDiscount(items) {
         // Bulk discount on Unlimited 5GB
         const ult5GBCount = items.filter(item => item === 'ult_large').length;
-        const ult5GBDiscount = ult5GBCount > 3 ? 5 : 0;
+        const ult5GBDiscount = ult5GBCount > 3;
         
         return { ult5GBDiscount };
     }

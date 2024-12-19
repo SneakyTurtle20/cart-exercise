@@ -14,5 +14,4 @@ Mechanics
 
 How to Run
 
-
-// to be discussed.
+Once you're in the root file run in the command `node src\test.js` to test how the scenarios should work.
